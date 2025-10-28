@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1wjt8XFE2YhtnKIPT1gGMuu1pKh-MNMGl
 """
 
-!pip install streamlit pyngrok pandas numpy scikit-learn
+pip install streamlit pyngrok pandas numpy scikit-learn
 
 # ==========================================
 # 🏠 HOUSE PRICE PREDICTION APP (Colab – INR + Lakhs)
