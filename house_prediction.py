@@ -120,7 +120,7 @@ with open("app.py", "w") as f:
 import time
 
 ngrok.kill()  # close any old tunnels
-!streamlit run app.py &>/dev/null &  # start streamlit quietly
+streamlit run app.py &>/dev/null &  # start streamlit quietly
 
 # Wait a bit for Streamlit to open port 8501
 time.sleep(5)
